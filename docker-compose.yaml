@@ -1,0 +1,6 @@
+web:
+    image: my-laravel-image
+    ports:
+        - 8000:8000
+    volumes:
+        - ./:/app
